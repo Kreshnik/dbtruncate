@@ -1,0 +1,21 @@
+{
+  "name": "kreshnik/dbtruncate",
+  "description": "A laravel command that helps truncate mysql database tables",
+  "authors": [
+    {
+      "name": "Kreshnik Hasanaj",
+      "email": "kreshnik.hasanaj@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "4.2.*",
+    "doctrine/dbal": "2.4.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Kreshnik\\Dbtruncate\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
