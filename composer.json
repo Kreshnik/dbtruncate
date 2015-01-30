@@ -1,6 +1,13 @@
 {
   "name": "kreshnik/dbtruncate",
   "description": "A laravel command that helps truncate mysql database tables",
+  "keywords": [
+    "laravel",
+    "tables truncate",
+    "db",
+    "truncate"
+  ],
+  "license": "MIT License",
   "authors": [
     {
       "name": "Kreshnik Hasanaj",
