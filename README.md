@@ -1,4 +1,5 @@
-## Laravel DBTruncate Command
+### For Laravel 5 click [here](https://github.com/Kreshnik/dbtruncate/tree/laravel5)
+## Laravel 4.2 DBTruncate Command
 
 Automatically truncates all mysql tables for you. Works also with tables that use relationships, by using the  `FOREIGN_KEY_CHECKS` system variable.
 
