@@ -14,10 +14,14 @@ Next, update Composer from the Terminal:
 
     composer update
 
+Once this operation completes, the final step is to add the service provider. Open `config/app.php`, and add a new item to the providers array.
+
+    'Kreshnik\Dbtruncate\DbtruncateServiceProvider'
+
 That's it! You're all set to go. Run the `artisan` command from the Terminal to see the new `db:truncate` command.
 
     php artisan
-    
+
 ## Commands
 
 `db:truncate` will prompt you to confirm the truncation process
