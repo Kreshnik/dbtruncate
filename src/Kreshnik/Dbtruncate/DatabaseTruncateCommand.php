@@ -20,6 +20,7 @@ class DatabaseTruncateCommand extends Command
 	 * @var string
 	 */
 	protected $description = 'Truncate database tables.';
+	
 	/**
 	 * @var DatabaseManager
 	 */
