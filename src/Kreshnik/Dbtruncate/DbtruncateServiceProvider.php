@@ -29,13 +29,13 @@ class DbtruncateServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->app['db.truncate'] = $this->app->share(function ( $app ) {
+		$this->app['db.truncate'] = $this->app->singleton(DatabaseTruncateCommand::class, function ( $app ) {
 			return new DatabaseTruncateCommand($app['db']);
 		});
 
-		$this->commands(
-			'db.truncate'
-		);
+		$this->commands([
+			DatabaseTruncateCommand::class
+		]);
 	}
 
 	/**
