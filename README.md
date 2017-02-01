@@ -6,9 +6,9 @@ Automatically truncates all mysql tables for you. Works also with tables that us
 
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `kreshnik/dbtruncate`
 
-"require-dev": {
-	"kreshnik/dbtruncate": "dev-master"
-}
+	"require-dev": {
+		"kreshnik/dbtruncate": "dev-master"
+	}
 
 Next, update Composer from the Terminal:
 
