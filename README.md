@@ -6,9 +6,16 @@ Automatically truncates all mysql tables for you. Works also with tables that us
 
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `kreshnik/dbtruncate`
 
+#### Laravel 5.5
 
     "require-dev": {
 		"kreshnik/dbtruncate": "dev-master"
+	}
+
+#### Laravel 5.4
+
+    "require-dev": {
+		"kreshnik/dbtruncate": "5.4.x-dev"
 	}
 
 Next, update Composer from the Terminal:
